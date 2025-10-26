@@ -1,13 +1,20 @@
+# Python
 __pycache__/
 *.pyc
+
+# Virtual env
 venv/
 .venv/
 env/
+
+# Secrets
 .env
+credentials.json
 .streamlit/
 .streamlit/secrets.toml
+
+# IDE/OS
 .vscode/
 .idea/
-dist/
-build/
-*.log
+.DS_Store
+Thumbs.db
